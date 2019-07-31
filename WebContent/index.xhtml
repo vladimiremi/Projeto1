@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:p="http://primefaces.org/ui">
+   
+   
+   
+   
+  <h:head></h:head>
+  <h:body>
+	<h:form>
+      	<h3>Nome: </h3>
+      	<p:inputText value="#{cadastrarMBean.pes.nome}" />
+      	
+      	<h3>Sobre nome: </h3>
+      	<p:inputText value="#{cadastrarMBean.pes.sobreNome}" />
+      	
+      	<h3>Sexo: </h3>
+      	<p:inputText value="#{cadastrarMBean.pes.sexo}" />
+      	
+      	<h3>CPF: </h3>
+      	<p:inputText value="#{cadastrarMBean.pes.cpf}" />
+      	
+      	<h3>Estado: </h3>
+      	<p:inputText value="#{cadastrarMBean.pes.estado}" />
+      	
+      	<h3>Cidade: </h3>
+      	<p:inputText value="#{cadastrarMBean.pes.cidade}" />
+      	
+      	<h3>Nascimento: </h3>
+      	<p:inputText value="#{cadastrarMBean.pes.nascimento}"/>
+
+      	
+      	<p:commandButton value="Salvar" action="#{cadastrarMBean.salvarDados}" style="margin-right:20px;" ajax="false" />
+      		
+     </h:form>
+      
+	</h:body>
+
+</html>
