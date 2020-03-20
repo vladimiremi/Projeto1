@@ -1,2 +1,2 @@
-# Projeto1
-Projeto simples de JSF
+# Projeto
+Projeto simples de JSF com a ajuda do professor Fernando
